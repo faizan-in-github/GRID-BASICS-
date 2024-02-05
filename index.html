@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+    <style>
+        .container{
+            height: 500px;
+            width: 600px;
+            border: 2px solid black;
+            margin: 40px auto;
+            padding: 10px;
+            display:grid;
+            grid-template-columns: 100px 100px 100px  100px 100px 100px;
+            grid-template-rows: 100px 100px 100px  100px 100px 100px;
+        }
+        .item1{
+            background-color: crimson;
+            border: 2px solid black;
+            grid-column: 1 / 4;
+            grid-row: 1 / 3;
+            margin:10px;
+            background-image: url("https://media.giphy.com/media/O6kb3Pa3Kgbsc/giphy.gif");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .item2{
+            background-color: rgb(238, 255, 0);
+            border: 2px solid black;
+            grid-column: 4 / 7;
+            grid-row: 1/ 6;
+            margin:10px;
+            background-image: url("https://th.bing.com/th/id/R.c6b3e26d3c7b3298e23b57a9fa916304?rik=wMf0Se%2bDODt88w&riu=http%3a%2f%2fwww.ddesignerr.com%2fwp-content%2fuploads%2f2012%2f05%2f029.gif&ehk=7xzygP11k8uERvbQeTwtiJT86CC5%2bR4djNJMKm6IciM%3d&risl=&pid=ImgRaw&r=0");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .item3{
+            background-color: rgb(89, 0, 255);
+            border: 2px solid black;
+            grid-column: 1 / 4;
+            grid-row: 3/ 6;
+            margin:10px;
+            background-image: url("https://www.bing.com/th/id/OGC.18a88a2ebfdf3fc29050aa643be12772?pid=1.7&rurl=https%3a%2f%2fi.pinimg.com%2foriginals%2fd3%2ff6%2f44%2fd3f6447aa965fe7c6d5d7ae518ccbb11.gif&ehk=b664vklY6sozT6rbVLqZVH4xyuqIy57eRxVuP%2bFuWs8%3d");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+    <div class="item1"></div>
+    <div class="item2"></div>
+    <div class="item3"></div>
+    
+   
+
+   </div> 
+</body>
+</html>
